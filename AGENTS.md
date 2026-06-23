@@ -17,6 +17,27 @@ This workspace should emphasize:
 
 Wei Agent Lab should usually act as the command center, not as the place where every project file lives.
 
+Project notes are separated by ownership type:
+
+```text
+projects/
+  wei-managed/
+    -> Wei-directed production projects
+  codex-managed/
+    -> Codex-controlled experiments
+```
+
+Use `projects/wei-managed/` for projects where Wei controls goals, style, and approval. Use `projects/codex-managed/` for experiments where Codex has broad control within recorded rules.
+
+Shared sources are stored outside project ownership folders:
+
+```text
+sources/
+  -> scripture sources, published-link baselines, channel facts, and provenance notes shared by multiple projects
+```
+
+When Wei-managed and Codex-managed projects use the same source material, update `sources/` first and link or summarize from there. Do not create competing copies of shared source facts in separate project notes.
+
 ---
 
 # Core Idea
@@ -179,16 +200,41 @@ Main Agent
 When the human asks Wei Agent Lab to manage a project:
 
 1. Identify the managed project from `projects.md`.
-2. Confirm the project path and current goal.
-3. Read that project's own README, AGENTS.md, or notes if they exist.
-4. Create a short task plan.
-5. Assign work to the appropriate agent role.
-6. Perform implementation in the managed project folder.
-7. Run tests or verification.
-8. Update documentation in both places when useful:
+2. Confirm whether it is Wei-managed or Codex-managed.
+3. Read the manager project note from `projects/wei-managed/` or `projects/codex-managed/`.
+4. Read relevant shared source notes from `sources/` when the task uses common scripture text, published links, channel baseline facts, or provenance rules.
+5. Confirm the project path and current goal.
+6. Read that project's own README, AGENTS.md, or notes if they exist.
+7. Create a short task plan.
+8. Assign work to the appropriate agent role.
+9. Perform implementation in the managed project folder.
+10. Run tests or verification.
+11. Update documentation in all relevant places when useful:
    * The managed project
    * Wei Agent Lab project notes
-9. Report results back to the human.
+   * Shared source notes in `sources/`
+12. Report results back to the human.
+
+---
+
+# Token-Efficient Execution Rule
+
+Prefer local, file-based work before browser or online work.
+
+Browser and online operations, such as YouTube Studio, Blogger, dashboards, web forms, uploads, and online editing, are usually token-expensive because every step requires page inspection, interaction, waiting, and verification.
+
+For all projects:
+
+* Prepare plans, metadata, scripts, checklists, and review text locally first.
+* Use local files as the source of truth before opening browser tools.
+* Ask for human review on local text or generated artifacts before online publishing when practical.
+* Batch online operations into the smallest number of browser sessions.
+* Use direct edit URLs when available instead of clicking through many pages.
+* Avoid screenshots and broad page inspection unless needed for correctness.
+* Use minimal online verification, such as saved status, final links, and content preview.
+* Record final online links and decisions back into local project notes.
+
+For media and publishing projects, do the expensive online step only after local render, metadata, description, tags, and upload checklist are ready.
 
 ---
 

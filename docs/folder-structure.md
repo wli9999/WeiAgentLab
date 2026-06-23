@@ -8,6 +8,10 @@ WeiAgentLab/
   README.md
   projects.md
   projects/
+    README.md
+    wei-managed/
+    codex-managed/
+  sources/
   agents/
   tasks/
   docs/
@@ -21,7 +25,11 @@ WeiAgentLab/
 
 ### `projects/`
 
-Project notes for each managed project. Each file should summarize the project's path, purpose, current goal, important files, status, and risks.
+Project notes grouped by ownership type. Use `projects/wei-managed/` for Wei-directed production projects and `projects/codex-managed/` for Codex-controlled experiments. Each file should summarize the project's ownership, path, purpose, current goal, important files, status, and risks.
+
+### `sources/`
+
+Shared source notes used by multiple projects, such as scripture-source rules, published-link baselines, channel facts, and provenance notes. Keep these outside ownership-specific project folders so Wei-managed and Codex-managed work can share the same source of truth.
 
 ### `agents/`
 

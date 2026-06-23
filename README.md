@@ -2,6 +2,11 @@
 
 Wei Agent Lab is a Codex manager workspace for coordinating multiple projects.
 
+The project registry separates two ownership styles:
+
+* **Wei-managed:** Wei controls the goal, style, and approval. Codex supports planning, implementation, testing, review, and documentation.
+* **Codex-managed:** Codex has broad control over the experiment within recorded rules, so results can be compared against Wei-managed work.
+
 Use this workspace when you want an AI project manager to:
 
 * Understand a goal
@@ -28,7 +33,7 @@ GitHub
     master agent workspace
 
   wli9999/video-create
-    managed meditation video project
+    Wei-managed meditation video project
 ```
 
 On another machine, clone both repositories and open `WeiAgentLab` as the manager workspace:
@@ -46,7 +51,15 @@ WeiAgentLab/
   README.md
   projects.md
   projects/
-    video-create.md
+    README.md
+    wei-managed/
+      video-create.md
+    codex-managed/
+      codex-challange-shorts.md
+  sources/
+    README.md
+    channel-baseline.md
+    scripture-sources.md
   agents/
     README.md
     main-agent.md
@@ -77,6 +90,6 @@ WeiAgentLab/
 
 ## First Managed Project
 
-The first registered project is `video create`.
+The first registered project is `video create`, a Wei-managed project. It includes the long-term meditation videos and the Shorts created before the separate Codex-managed Shorts experiment.
 
-See `projects/video-create.md`.
+See `projects/wei-managed/video-create.md`.
