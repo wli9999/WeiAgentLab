@@ -41,7 +41,10 @@ Use shared source notes for common scripture, channel baseline, and published-li
 ```text
 sources/channel-baseline.md
 sources/scripture-sources.md
+sources/voice-references.md
 ```
+
+The human voice references are available to this Wei-managed project when narration or voice experiments are explicitly part of the task.
 
 ## Known Files And Areas
 

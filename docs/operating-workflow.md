@@ -5,7 +5,7 @@
 1. Human gives Wei Agent Lab a goal.
 2. Main Agent identifies the managed project from `projects.md`.
 3. Main Agent reads the relevant project note in `projects/wei-managed/` or `projects/codex-managed/`.
-4. Main Agent reads relevant shared source notes in `sources/` when the task uses common scripture text, published links, channel baselines, or provenance rules.
+4. Main Agent reads relevant shared source notes in `sources/` when the task uses common scripture text, voice references, published links, channel baselines, or provenance rules.
 5. Main Agent creates or updates a task in `tasks/`.
 6. Specialized agents perform research, development, testing, review, or documentation.
 7. Tester Agent verifies the result.

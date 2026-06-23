@@ -27,9 +27,10 @@ Shared sources are stored outside ownership-specific project notes:
 sources/
   channel-baseline.md
   scripture-sources.md
+  voice-references.md
 ```
 
-Use `sources/` when Wei-managed and Codex-managed projects depend on the same scripture text, published links, baseline facts, or provenance rules.
+Use `sources/` when Wei-managed and Codex-managed projects depend on the same scripture text, published links, baseline facts, voice references, or provenance rules.
 
 ## Active Projects
 

@@ -6,7 +6,7 @@ Use `projects.md` as the registry of all projects. Use files in this folder for 
 
 Project source files should usually remain in their own project folders outside Wei Agent Lab.
 
-Shared source facts that may be used by more than one ownership type should live in `sources/`, not in an ownership-specific project note.
+Shared source facts and shared source assets that may be used by more than one ownership type should be documented in `sources/`, not only in an ownership-specific project note.
 
 ## Structure
 

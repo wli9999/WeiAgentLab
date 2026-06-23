@@ -33,7 +33,10 @@ Use shared source notes for common scripture, channel baseline, and published-li
 ```text
 sources/channel-baseline.md
 sources/scripture-sources.md
+sources/voice-references.md
 ```
+
+The human voice references are available to this Codex-managed project when narration or voice experiments fit the active experiment and pass review.
 
 Objective order:
 

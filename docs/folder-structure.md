@@ -29,7 +29,7 @@ Project notes grouped by ownership type. Use `projects/wei-managed/` for Wei-dir
 
 ### `sources/`
 
-Shared source notes used by multiple projects, such as scripture-source rules, published-link baselines, channel facts, and provenance notes. Keep these outside ownership-specific project folders so Wei-managed and Codex-managed work can share the same source of truth.
+Shared source notes used by multiple projects, such as scripture-source rules, voice-reference rules, published-link baselines, channel facts, and provenance notes. Keep these outside ownership-specific project folders so Wei-managed and Codex-managed work can share the same source of truth.
 
 ### `agents/`
 

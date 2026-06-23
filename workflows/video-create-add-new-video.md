@@ -26,6 +26,7 @@ Capture these before implementation when they are not already clear:
 * Language display needs, such as Chinese, pinyin, English, or bilingual labels
 * Visual style, especially whether to reuse the approved existing style
 * Audio style, such as silent read-along, simple guitar, chant, voice, bell, or other
+* Whether to use the shared human voice references documented in `sources/voice-references.md`
 * Target output, such as YouTube long video, YouTube Shorts, draft, or final render
 
 ## Standard Publishing Pattern

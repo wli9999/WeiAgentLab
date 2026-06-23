@@ -18,6 +18,7 @@ Shared source material stays here:
 sources/
   channel-baseline.md
   scripture-sources.md
+  voice-references.md
 ```
 
 ## Rules
@@ -27,3 +28,4 @@ sources/
 * If a source fact changes, update the relevant file in `sources/` first, then update project notes only when their status or decision record changes.
 * Generated media outputs do not belong here.
 * Copyright, provenance, and human-review notes should be recorded before using a shared source for publishing.
+* Human voice references are shared source material only when consent and handling rules are recorded in `voice-references.md`.

@@ -33,7 +33,7 @@ Shared sources are stored outside project ownership folders:
 
 ```text
 sources/
-  -> scripture sources, published-link baselines, channel facts, and provenance notes shared by multiple projects
+  -> scripture sources, voice references, published-link baselines, channel facts, and provenance notes shared by multiple projects
 ```
 
 When Wei-managed and Codex-managed projects use the same source material, update `sources/` first and link or summarize from there. Do not create competing copies of shared source facts in separate project notes.
@@ -202,7 +202,7 @@ When the human asks Wei Agent Lab to manage a project:
 1. Identify the managed project from `projects.md`.
 2. Confirm whether it is Wei-managed or Codex-managed.
 3. Read the manager project note from `projects/wei-managed/` or `projects/codex-managed/`.
-4. Read relevant shared source notes from `sources/` when the task uses common scripture text, published links, channel baseline facts, or provenance rules.
+4. Read relevant shared source notes from `sources/` when the task uses common scripture text, voice references, published links, channel baseline facts, or provenance rules.
 5. Confirm the project path and current goal.
 6. Read that project's own README, AGENTS.md, or notes if they exist.
 7. Create a short task plan.
